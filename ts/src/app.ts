@@ -553,7 +553,7 @@ function launchPopupCode(message: string): void {
     popupDiv.classList.add('popup');
   
     const messageElement = document.createElement('h2');
-    messageElement.textContent = message;
+    messageElement.textContent = message+ " (code: 9007199254740991)";
     messageElement.classList.add('text-danger',"text-center","m-5");
     popupDiv.appendChild(messageElement);
   
@@ -602,4 +602,5 @@ function launchPopupCode(message: string): void {
     document.body.appendChild(overlay);
 }
   
+
   

@@ -477,7 +477,7 @@ function launchPopupCode(message) {
     const popupDiv = document.createElement('div');
     popupDiv.classList.add('popup');
     const messageElement = document.createElement('h2');
-    messageElement.textContent = message;
+    messageElement.textContent = message + " (code: 9007199254740991)";
     messageElement.classList.add('text-danger', "text-center", "m-5");
     popupDiv.appendChild(messageElement);
     const buttonsDiv = document.createElement('div');
