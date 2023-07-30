@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "../js",
+        "target": "ES2022",
+        "noEmitOnError": true,
+        "strict": true,
+        "removeComments": true
+    },
+    "files": [
+        "src/app.ts"
+    ]
+}
